@@ -46,6 +46,8 @@ const getSalario = (id, callback) => {
 
 const id = 3;
 
+//Callback hell
+
 getEmpleado(id, (error, empleado) => {
     if (error) {
         console.log('ERROR!');
